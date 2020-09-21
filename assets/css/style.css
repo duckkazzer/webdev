@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+}
+:root{
+    --main-color: #FFFFFF;
+ }
+
+body{
+    width: 1600px;
+    
+    background: #FFFFFF;
+    margin: 0 auto;
+
+}
+.bgintro{
+    background-image: url(../bg-image.jpg);
+    width: 1600px;
+    height: 758px;
+ }
+
+ header{
+    overflow: auto;
+ }
+
+a{
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+
+}
+
+nav{
+    padding-top: 25px;
+}
+
+
+li{
+    list-style: none;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 544px;
+    height: 44px;
+    margin: 0 auto;
+    align-items: center;
+
+
+}
+
+.nav_list{
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: 80%;
+}
+ .nav_list_active{
+     color: #FFFFFF;
+ }
+
+.nav ul li:nth-child(1) a::after{
+content: "";
+height: 1px;
+background-color: #FFFFFF;
+display: block;
+}
+
+
+
+.yourLifeAphoto{
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Roboto';
+    font-size: 64px;
+    line-height: 75px;
+    color: var(--main-color);
+    width: fit-content;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-top: 0 auto;
+    margin-top: 162px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+
+}
+.yourLife p{
+    width: 504px;
+    font-style: normal;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--main-color);
+    margin: 0 auto;
+    margin-top: 20px;
+
+
+}
+.yourLife a{
+    margin-top: 30px;
+    display: block;
+    opacity: 1;
+}
+
+.yourLife a div{
+    margin: 0 auto;
+    background-color: #00AFDB;
+    width: 184px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+}
+
+.yourLife a div p{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.btn :hover{
+    background-color: #009CC2;
+   
+}
+
+
+.socialLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    padding-top: 183px;
+    margin: 0 auto;
+}
+
+.socialLinks a{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+}
