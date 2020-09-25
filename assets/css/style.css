@@ -391,7 +391,7 @@ height: 524px;
 
 .blockText9{
  padding-top: 200px;
- margin-left: 770px;
+ margin-left: 610px;
 }
 
 
@@ -412,7 +412,7 @@ color: #FFFFFF;
   width: 406px;
   display: flex;
   margin: 0 auto;
-  margin-left: 757px;
+  margin-left: 597px;
   margin-top: 30px;
 }
 
@@ -481,6 +481,101 @@ height: 46px;
 }
 
 .btnE:hover {
-  background-color: #009CC2;
+  background-color: #009cc2;
   cursor: pointer;
 }
+
+.download{
+  display: block;
+  
+  width: 1600px;
+height: 464px;
+background: #F5F6F7;
+}
+.blockText10{
+  padding-top: 120px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+text-align: center;
+justify-content: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #373737;
+
+}
+
+.blockText11{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 560px;
+  width: 480px;
+  height: 40px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+text-align: center;
+
+color: #4E4E4E;
+
+}
+
+.btnsStore{
+  display: flex;
+  justify-content: space-between;
+  width: 402px;
+  height: 46px;
+  margin-left: 599px;
+}
+
+.btnStore{
+  width: 186px;
+height: 46px;
+display: flex;
+}
+
+
+.textStore{
+  display: flex;
+  opacity: 1;
+  background-color: #00afdb;
+  width: 127px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+
+.btnStore div p {
+  margin: auto auto;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-color);
+}
+
+.storeLogo{
+  padding-left: 21.51px;
+  padding-top: 13.75px;
+  align-items: center;
+  justify-content: center;
+  width: 59px;
+  height: 46px;
+
+  background-color: #009cc2;
+}
+
+.btnStore div:hover {
+  background-color: #009cc2;
+  cursor: pointer;
