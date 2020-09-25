@@ -223,8 +223,7 @@ li {
   color: #4e4e4e;
 }
 
-.btn {
-}
+
 
 .ourCommunity {
   display: flex;
@@ -579,3 +578,4 @@ display: flex;
 .btnStore div:hover {
   background-color: #009cc2;
   cursor: pointer;
+}
