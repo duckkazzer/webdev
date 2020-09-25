@@ -383,6 +383,104 @@ color: #373737;
 }
 
 .signUp{
+  background-image: url(../pexels-christina-morillo-1181675\ 1.jpg);
+
   width: 1600px;
 height: 524px;
+}
+
+.blockText9{
+ padding-top: 200px;
+ margin-left: 770px;
+}
+
+
+.blockText9 p{
+height: 28px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.contentBlock5{
+  width: 406px;
+  display: flex;
+  margin: 0 auto;
+  margin-left: 757px;
+  margin-top: 30px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  padding-left: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+color: #373737;
+
+opacity: 0.5;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  padding-left: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+color: #373737;
+
+opacity: 0.5;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  padding-left: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+color: #373737;
+
+opacity: 0.5;
+}
+:-moz-placeholder { /* Firefox 18- */
+  padding-left: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+color: #373737;
+
+opacity: 0.5;
+}
+
+.btnE {
+  display: flex;
+  opacity: 1;
+  background-color: #00AFDB;
+  width: 66px;
+height: 46px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.btnE:hover {
+  background-color: #009CC2;
+  cursor: pointer;
 }
